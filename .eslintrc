@@ -1,0 +1,47 @@
+parser: 'babel-eslint'
+
+extends: 'airbnb'
+
+env:
+browser: tnoderue
+node: true
+es6: true
+mocha: true
+
+ecmaFeatures:
+jsx: true
+module: true
+
+rules:
+react/jsx-quotes: 0
+jsx-quotes: [2, 'prefer-single']
+max-len: [1, 100, 2]
+id-length: 0
+no-param-reassign: [1, { "props": false }]
+new-cap: [2, { "capIsNewExceptions": [
+"List",
+"Map",
+"OrderedMap",
+"Set",
+"OrderedSet",
+"Stack",
+"Range",
+"Repeat",
+"Record",
+"Seq",
+"KeyedSeq",
+"IndexedSeq",
+"SetSeq",
+"Iterable",
+"KeyedIterable",
+"IndexedIterable",
+"SetIterable",
+"Collection",
+"KeyedCollection",
+"IndexedCollection",
+"SetCollection"
+]
+}]
+
+plugins:
+- react

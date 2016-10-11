@@ -1,0 +1,96 @@
+
+$c-gray-10: #0e0e0e;
+$c-gray-20: #1b1e20;
+$c-gray-30: #202528;
+$c-gray-40: #272c30;
+$c-gray-50: #363e41;
+$c-gray-60: #6e757b;
+$c-gray-65: #4e585c;
+$c-gray-70: #a7b1ba;
+$c-blue: #00bcd4;
+$c-yellow: #e8df63;
+$c-red: #e92536;
+$c-green: #00d742;
+$c-white: #fff;
+$c-shadow: transparentize(#0e0e0e, .5);
+$c-white_transparent: transparentize($c-white, .8);
+
+// Composer
+$с-composer-sender_border: $c-gray-50;
+$с-composer-sender_bg: $c-gray-30;
+$c-composer-send-button_text: $c-blue;
+$c-composer-textarea_text: $c-white;
+
+
+// Message
+$c-message-cloud_text: $c-white;
+$c-message-cloud-default_bg: $c-blue;
+$c-message-cloud-other_bg: $c-green;
+$c-message-avatar_border: $c-gray-60;
+$c-message-date_text: $c-gray-10;
+
+// Header
+$c-header_bg: $c-gray-50;
+$c-header_text: #aeaeae;
+
+
+// Dropdown
+$c-dropdown-button_text: $c-gray-30;
+$c-dropdown-menu_bg: $c-gray-40;
+$c-dropdown-menu_text: $c-gray-60;
+$c-dropdown-item_border: $c-gray-30;
+$c-dropdown-item-hover_bg: $c-gray-20;
+$c-dropdown-item-danger_text: $c-red;
+
+// global
+$c-main-shadow: $c-shadow;
+$c-main_bg: linear-gradient(45deg, rgba(177,103,73,1) 0%,rgba(209,192,152,1) 51%,rgba(177,103,73,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+$c-main_text: $c-white;
+$main-border-radius: 5px;
+
+
+// Search
+$c-search_bg: $c-gray-30;
+$c-search_placeholder: $c-gray-50;
+
+
+// Threads
+$c-threads_bg: $c-gray-40;
+$c-threads_text: #aeaeae;
+
+
+// Tabs
+$c-highlight: $c-blue;
+$c-tab_bg: $c-gray-40;
+$c-tab_text: $c-gray-60;
+$c-current-tab_bg: $c-gray-30;
+$c-current-tab_text: $c-white;
+$c-hover-tab_bg: $c-gray-30;
+$c-hover-tab_text: $c-gray-70;
+$c-active-tab_bg: $c-gray-20;
+$c-active-tab_text: $c-white;
+
+
+// Login page
+$c-login-page_rect_bg: $c-gray-20;
+$c-login-page_rect_border: $c-blue;
+$c-login-window_bg: $c-gray-30;
+$c-login-window_border: $c-gray-50;
+
+
+// InfoMessage
+$c-info-message_info: $c-blue;
+$c-info-message_warning: $c-blue;
+$c-info-message_error: $c-red;
+$c-info-message_success: $c-green;
+
+
+// Input
+$c-input_bg: $c-white;
+$c-input_color: $c-gray-20;
+$c-input_border: #cbcbcb;
+$c-input_placeholder: #999;
+$c-input_focus: $c-blue;
+
+// Form
+$c-form_bg: $c-white;

@@ -1,0 +1,19 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "env": {
+    "development1": {
+      "plugins": [
+        ["react-transform", {
+          "transforms": [{
+            "transform": "react-hot-loader",
+            "imports": ["react"],
+            "locals": ["module"]
+          }, {
+            "transform": "react-transform-catch-errors",
+            "imports": ["react", "redbox-react"]
+          }]
+        }]
+      ]
+    }
+  }
+}
